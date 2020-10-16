@@ -1,0 +1,257 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(-30deg,  #ADD8E6, white);
+    font-family: 'Times New Roman', Times, serif;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.cabecalho01{
+    width: 100%; 
+    background-color: black;
+    height: 85px;
+}
+
+main, .conteudo{
+    margin: 0 auto;
+    width: 100%;
+    position: center;
+    
+}
+.conteudo p{
+    margin: 40px;
+    text-align: center;
+}
+.conteudo h1{
+    text-transform: uppercase;
+    margin: 40px;
+    text-align: center;
+    margin-left: initial;
+}
+
+.logo{
+    padding: 3px;
+    margin: 2px;
+    width: 1030px;
+    float: left;
+}
+
+.redes-sociais ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.redes-sociais{
+    width: 20%;
+    float: left;
+}
+
+.cabecalho02{
+    background-color: #DCDCDC;
+    width: 100%;
+    display: inline-block;
+    height: 80px;
+    margin-top: -5px;
+    padding: -3px;
+}
+
+.menu-urls{
+    border-bottom: 3px solid #C0C0C0;
+    height: 75px;
+}
+
+.menu-navegacao ul li{
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    float: left;
+}
+
+.menu-navegacao ul li .home:hover{
+    color:  black;
+    border-bottom: 3px solid black; 
+}
+.menu-navegacao ul li .sobre:hover{
+    color: black;
+    border-bottom: 3px solid black;
+}    
+.menu-navegacao ul li .contatos:hover{
+    color: black;
+    border-bottom: 3px solid black;
+}
+.menu-navegacao ul li .servicos:hover{
+    color: black;
+    border-bottom: 3px solid black;
+}
+.menu-navegacao ul li .adm:hover{
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+.menu-navegacao ul li a{
+    margin-top: 10px;
+    color: #696969;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 8px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.menu{
+    width: 70%;
+    float: left;
+}
+
+.busca{
+    margin-top: 8px;
+    width: 30%;
+    float: right;
+}
+
+.busca input{
+    background-image: url('../img/icones/icone_busca.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 98%;
+    background-color: #DCDCDC;
+    border: 2px solid #696969;
+    margin-top:-8px;
+    text-align: initial;
+    height: 36px;
+    padding: 10px;
+    width: 220px;
+}
+
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    height: 50;
+    width: 37;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/setas/seta_direita.png);
+    top: 150px;
+    right: 150px;
+}
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    height: 50;
+    width: 37;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/setas/seta_esquerda.png);
+    top: 150px;
+    left: 150px;
+}
+
+.slick-initialized {
+    height: 400px;
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 2px solid #ffffff;  
+    width: 7px;
+    height: 16px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 17%;
+    position: absolute;
+    left: 42%;
+    top: 350px;
+}
+
+li.slick-active button {
+    background-color: turquoise;
+}
+
+.slick-dots li {
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.bloco{
+    margin: 0;
+    width: 30%;
+    float: left;
+    position: relative;
+    padding-left: 22.4px;
+    padding-right: 22.5px;
+    text-align: center;
+    background-color: #ffffff;
+    height: 550px;
+}
+
+.vendas{
+    padding: 0;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+}
+
+.catalogo{
+    float: left;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.bloco-imagem{
+    width: 300px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    background-image: linear-gradient(-80deg,  #A9A9A9, white);
+    text-align: center;
+    height: 300px;
+    border: 3px solid #808080;
+    border-radius: 8px;
+}
+
+.bloco-imagem img{
+    margin-top: 20px;
+}
+
+button{
+    background-color:#D3D3D3;
+    height: 30px;
+    width: 120px;
+    border-radius: 8px;
+}
+
+.marcas{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    background-color: #ffffff;
+}
+
+.marcas img{
+    margin:0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer h3{
+    text-align: left;
+}
+
